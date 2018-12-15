@@ -5,6 +5,6 @@ channels:
 dependencies:
   - jupyter
   - nb_conda
-  - python>=3.7
+  - python
   
 
