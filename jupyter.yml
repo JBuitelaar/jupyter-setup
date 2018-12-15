@@ -1,0 +1,10 @@
+name: jupyter
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - nb_conda
+  - python>=3.7
+  
+
