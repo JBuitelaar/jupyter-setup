@@ -19,3 +19,6 @@ It should be possible to just add new kernels using this in the relevant environ
 > python -m ipykernel install --user --name XYZ
 
 However, I couldn't get that to work. The problem is that $PATH (```os.environ['PATH']```) still points to the jupyter environment instead of the environment. That means that DLLs (like you need for numpy) couldn't be found (unless you install them in the jupyter folder)
+
+## Conda tab
+The Conda tab in Jupyter doesn't work. The console complains about some files that can't be found
